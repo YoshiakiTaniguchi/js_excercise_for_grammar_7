@@ -76,7 +76,7 @@ console.log(array5);
 //   - 配列の先頭から値を取り除く際には、配列の組み込みメソッドである「shift」を使う
 //   - 「shift」を使って取り除いた値は変数「shiftedValue」に代入する
 //   - 値を配列の先頭から取り除く前と取り除いた後の結果をconsole.logで出力する (出力結果が異なることを確認する)
-//   - 変数「shiftedValue」をconsole.logで出力して、'タスク1' が表示されることを確認する
+//   - 変数「shiftedValue」をconsole.logで出力して、'タスク1' が表示されることを確認
 const array6 = ["タスク1","タスク2","タスク3"];
 console.log(array6);
 const shiftedValue = array6.shift([1]);
