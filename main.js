@@ -79,6 +79,6 @@ console.log(array5);
 //   - 変数「shiftedValue」をconsole.logで出力して、'タスク1' が表示されることを確認
 const array6 = ["タスク1","タスク2","タスク3"];
 console.log(array6);
-const shiftedValue = array6.shift([1]);
+const shiftedValue = array6.shift();
 console.log(array6);
 console.log(shiftedValue);
